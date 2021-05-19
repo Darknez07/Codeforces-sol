@@ -33,5 +33,6 @@ public class A1520 {
                 System.out.println("YES");
             }
         }
+        input.close();
     }
 }
