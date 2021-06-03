@@ -16,7 +16,7 @@ public class A588 {
             }
             sum+=(min*need);
         }
-        input.close();
+    input.close();
         System.out.println(sum);
     }
 }
