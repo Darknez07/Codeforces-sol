@@ -12,7 +12,7 @@ public class B977 {
         String s = input.next();
         String p="";
         input.close();
-        for(int i=0;i<s.length() - 1;i++){
+        for(int i=0;i<l - 1;i++){
             p = s.substring(i,i+2);
             st.add(p);
             lst.add(p);
