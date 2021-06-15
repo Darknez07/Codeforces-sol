@@ -3,7 +3,7 @@
 using namespace std;
 // After lot of hard work
 int main(){
-    int n,m;
+    int n,m,j = 0;
     cin>>n>>m;
     vector<long long> lst(n,0);
     long long in;
@@ -14,7 +14,6 @@ int main(){
         else
             lst[i] = in;
     }
-    int j = 0;
     for(int i=0;i<m;i++){
         cin>>in;
         if(lst[j] >= in && j == 0)
