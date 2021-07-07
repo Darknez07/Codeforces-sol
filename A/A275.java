@@ -41,5 +41,6 @@ public class A275 {
             }
             System.out.println();
         }
+        input.close();
     }
 }
