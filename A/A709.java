@@ -19,5 +19,6 @@ public class A709{
             }
         }
         System.out.println(waste);
+        input.close();
     }
 }
