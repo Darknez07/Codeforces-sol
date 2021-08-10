@@ -21,7 +21,6 @@ public class B467 {
         }
         int num = input.nextInt();
         int friends = 0;
-        // System.out.println(num);
         input.close();
         for(i=0;i<m;i++){
             arr[i]^=num;
