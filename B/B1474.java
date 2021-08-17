@@ -1,7 +1,5 @@
 import java.util.Scanner;
-// Good Code
-// Help to find the two primes
-// nearest to some values;
+
 public class B1474{
     public static long primes(long a){
         boolean temp;
