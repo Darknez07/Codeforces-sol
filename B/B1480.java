@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
-// Not complete
+
 public class B1480 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -24,26 +24,25 @@ public class B1480 {
             c = 0;
             Arrays.sort(a,new Comparator<int[]>(){
                 public int compare(int[] a, int[] b){
-                    if(a[0] < b[0])
-                        return a[0];
+                    if(a[1] < b[1])
+                        return 1;
                     else
-                        return b[0];
+                        return -1;
                 }
             });
             while (B > 0 && c < n) {
-                factor = a[c][1] / A;
-                B -= (a[c][0]    * factor);
-                if(B <= 0){
+                factor = (int)Math.ceil((double)a[c][1] / A);
+                B -= (a[c][0] * factor);
+                if((a[c][1] - A * factor) > 0 && B <= 0){
                     no = true;
                     break;
                 }
                 c++;
             }
-            if(no || c < n)
+            if(no)
                 System.out.println("NO");
-            else{
+            else
                 System.out.println("YES");
-            }
         }
         input.close();
     }
