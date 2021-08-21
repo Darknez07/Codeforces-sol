@@ -31,7 +31,7 @@ public class C1553 {
             char[] arr = input.next().toCharArray();
             // Minimize round by watching players win
             // Hence get the minimal score
-            System.out.println(Math.min(Win(arr,0),Win(arr, 1)));
+            System.out.println(Math.min(Win(arr,0), Win(arr, 1)));
         }
         input.close();
     }
