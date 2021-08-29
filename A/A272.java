@@ -7,6 +7,7 @@ public class A272 {
         for(int i=0;i<n;i++){
             sum+=input.nextInt();
         }
+        input.close();
         n++;
         int i,output = 0;
         for(i=1;i<=5;i++){
@@ -14,6 +15,5 @@ public class A272 {
                 output++;
         }
         System.out.println(output);
-        input.close();
     }
 }
