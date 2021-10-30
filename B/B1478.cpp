@@ -4,5 +4,4 @@ using namespace std;
 // Need to rethink better
 // Solution exists;
 int main(){
-    return 0;
 }
