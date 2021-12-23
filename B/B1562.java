@@ -46,5 +46,6 @@ public class B1562 {
             System.out.println(2);
             System.out.println(num);
         }
+        input.close();
     }
 }
