@@ -9,8 +9,8 @@ public class B1342 {
             char[] ch = input.next().toCharArray();
             for(int i = 0; i < ch.length;i++){
                 if(ch[i] == '1'){
-                    s+='0';
                     s+=ch[i];
+                    s+='0';
                 }else{
                     s+=ch[i];
                     s+='1';
