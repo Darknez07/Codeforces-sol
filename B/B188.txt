@@ -1,0 +1,23 @@
+co r{
+    /* Equate 5 to 1 if 0 */
+    eq [5] [1] 0
+    /* Exit if variable is set*/
+    if [5] ac
+    /*Keep multiplying until we reach 0*/
+    mul [2] [2] 10
+    /* Here we find n % 10 for digit */
+    mod [3] [1] 10
+    /* Add the digit to current number */
+    add [2] [2] [3]
+    /* Suprisingly order is reverse */
+    div [1] [1] 10
+    /* We make last digit the first one by num*10 each time */
+}
+
+iin [0]
+iin [1]
+set [2] 0
+ca r
+add [0] [0] [2]
+iout [0]
+ac
