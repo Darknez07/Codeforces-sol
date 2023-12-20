@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+void solve(){
+    int n,m;
+    cin>>n>>m;
+    cout<<max(n,m)<<endl;
+    return;
+
+}
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--) solve();
+}
